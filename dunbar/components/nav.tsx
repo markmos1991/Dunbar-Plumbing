@@ -12,12 +12,12 @@ const Nav = () => {
   };
   return (
     <>
-      <nav className='flex flex-wrap items-center p-5 shadow-lg bg-green'>
+      <nav className='flex flex-wrap items-center p-5 shadow-lg bg-blue-900'>
         <Link href="/" className="flex items-center mx-2 mb-4 font-medium text-txt title-font md:mb-0">
         
-          <span className="ml-3 text-xl text-black">Dunbar Plumbing</span>
+          <span className="ml-3 text-xl text-white">LOGO HERE</span>
         </Link>
-        <button className='inline-flex p-3 ml-auto text-black lg:hidden hover:text-white'
+        <button className='inline-flex p-3 ml-auto text-white lg:hidden hover:text-red-600'
          onClick={handleClick}>
           <svg
             className='w-6 h-6'
