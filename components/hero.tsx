@@ -13,7 +13,7 @@ export default function Hero() {
           <div className="flex justify-center">
            
             <a
-             href="#"
+             href="/contact"
             className="rounded-md bg-red-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
             >
               Get in Touch
@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
           <Image
-            src="/header.JPG"
+            src="/header.jpg"
             width={500}
             height={500}
             alt="Picture of the author"
