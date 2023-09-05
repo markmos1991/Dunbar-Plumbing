@@ -17,7 +17,7 @@ const Nav = () => {
         
           <span className="ml-3 text-xl text-white">LOGO HERE</span>
         </Link>
-        <button className='inline-flex p-3 ml-auto text-white lg:hidden hover:text-red-600'
+        <button className='inline-flex p-3 ml-auto text-white lg:hidden hover:text-gray-400'
          onClick={handleClick}>
           <svg
             className='w-6 h-6'
@@ -38,7 +38,7 @@ const Nav = () => {
             active ? '' : 'hidden'
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
           <div className='flex flex-col items-start w-full lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto'>
-          <Link href="/#" className="px-4 py-2 m-2 text-black rounded ">Home</Link>
+          <Link href="/contact" className="px-4 py-2 m-2 text-white rounded ">Contact</Link>
       
         </div>
         </div>

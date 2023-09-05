@@ -8,9 +8,11 @@ export default function Home() {
   return (
     <div>
    <Hero />
-   <Contact />
+  
    <Services />
+    
    <Areas />
+   <Contact />
    
     </div>
   )
